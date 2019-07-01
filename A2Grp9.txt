@@ -1,0 +1,103 @@
+                     ==============================
+                       COMP2420, Semester 1, 2019
+                         Assignment 2 Mark Sheet
+                     ==============================
+
+=======================================================
+  Uni Id  | Lab Group  | Tutor                  
+=======================================================
+ u6742441   fri11-13     James Lonie
+ u6380075   wed13-15     Cody Christopher
+ u6352696   thu13-15b    Cody Christopher
+=======================================================
+
+Group Number : A2Grp9
+
+Gitlab Repo : gitlab.cecs.anu.edu.au:u6352696/comp2420-2019-ass2
+
+Markers
+-------
+
+Database Management: Cody Christopher
+Data Acquisition: Alexei Khorev
+Machine Learning:
+  Short answers and k-means: Hanif Rasyidi
+  Classification: Xu Wang
+Decision Trees: Harshit Trivedi
+
+Marks
+=====
+
+========================================
+ Database Management 
+   Q1                         :    2.5/3
+   Q2                         :    3/3
+   Q3                         :    4/4
+   Q4                         :    5/5
+
+ Data Acquisition             :    16/20
+
+ Machine Learning
+   Short Answers
+   Q1.1.1                     :    4/4
+   Q1.1.2                     :    2/4
+
+   K-Means Clustering
+   Q1.2.1                     :    13/15
+   Q1.2.2                     :    2/2
+
+   Classification
+   Q2.1                       :    25/25
+   Q2.2                       :    5/5
+
+ Decision Trees
+   Q1                         :    3/3
+   Q2                         :    3/3
+   Q3                         :    4/4
+
+ Penalty (if any)             :    /100 
+========================================
+   Total (max 100)            :  91.5
+========================================
+
+
+Feedback
+========
+
+Database Management
+-------------------
+q1 col name imprecise.
+Otherwise great.
+
+
+
+Data Acquisition
+----------------
+
+simple (most plainest) queries followed by minor df adjustments (not ML
+specific)
+
+Machine Learning
+----------------
+Short Answers and K-Means
+.........................
+The result of kmeans is based on the initial centroid and the distribution of the data. If the initial centroid is the same (in the scenario that it doesn't use random initialization), it will likely produce the same result.
+
+The use of elbow method to determine number of cluster is a good idea, but you need to be carefull when using the automatic number of k.
+The improvement from k=1 to k=2 in this case is always greater than the other improvement (because of course k=1 is not a clustering, hence 1 to 2 might be a special case), but it is not necessarily the best number of cluster to choose especially due to the fact that there is a significant improvement from 2-3 and 3-4. You need to find a better 'stopping' condition on determining which number of cluster is the best for representing the data
+
+
+
+Classification
+..............
+Model: (18)
+Justification: (7)
+Short Answer: (5)
+
+
+
+Decision Trees
+--------------
+1. Correct. Good use of Python for formatted text.
+2. Correct. Well explained!
+3. Well-documented workflow. Good job!
